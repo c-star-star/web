@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格的基本操作</title>
+    <style>
+        table {
+            width: 280px;
+            height: 280px;
+            border: 1px solid red;
+            margin: 0 auto;
+            text-align: center;
+
+        }
+
+        td,
+        th {
+            border: 1 solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1" align="center">
+        <tr>
+            <th colspan="3">合并3个单元格</th>
+
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <table border="2" align="center">
+        <tr>
+            <th rowspan="3">合并一列的三行</th>
+            <td>2</td>
+            <td>3</td>
+
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>2</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+
+        </tr>
+    </table>
+    <table border="3" align="center">
+        <tr>
+            <th colspan="2" rowspan="2">合并两行两列</th>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+
+</html>

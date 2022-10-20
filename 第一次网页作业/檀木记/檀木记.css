@@ -1,0 +1,74 @@
+.header{
+	width:980px;
+    height:114px;
+    background-color:#525252;
+    margin:0 auto;
+    text-align: center;
+    }
+    .banner{
+    	width:980px;
+    	margin:0 auto;
+    }
+   .banner h2{
+        font-size: 18px;
+ 		line-height: 40px;
+ 	}
+
+   .nierong{
+      width:980px;
+      margin:0 auto;
+      text-indent: 2px;
+   }
+   .nierong h2{
+    font-size: 40px;color: rgb(194, 31, 31);
+    line-height: 40px;
+    text-align: center;
+   }
+   .nierong h3{
+    font-size: 15px;color: rgb(199, 28, 28);
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: center;
+   }
+   .xinpin {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .xinpin  h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+   }
+   .xinpin  h3{
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bolder;
+   }
+   .yuanchuang{
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .yuanchuang h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+   }
+   .yuanchuang h3{
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bolder;
+   }
+   .end {
+    font-family: "微软雅黑"; font-size: 16px; color: #fdf8f8;
+    width:980px;
+    height:80px;
+    background-color:rgba(8, 7, 7, 0.849);
+    margin:0 auto;
+    text-align: center;
+    line-height: 85px;
+  
+   }

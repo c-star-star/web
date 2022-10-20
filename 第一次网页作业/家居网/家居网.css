@@ -1,0 +1,85 @@
+*{margin:0;padding:0;border:0;list-style: none;}
+body{font-family: "微软雅黑";font-size: 16px;color:#404042;}
+a{text-decoration: none;color:#fff;}
+.header{
+    width:980px;
+    height: 50px;
+}
+.header img{
+    float:left;
+    margin-left: 350px;
+}
+.header p{
+    height: 20px;
+    width: 980px;
+   padding: 20px 250px; 
+   margin-left: 880px;
+}
+.nav{
+    width: 980px;
+    height: 50px;
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: rgb(40, 39, 39);
+    margin-left: 350px;
+}
+.nav span{
+    margin: 50px;
+    font-family: red;
+}
+.nav span:hover{
+    background-color: red;
+}
+.banner img{
+    width: 980px;
+    height: 500px;
+    padding-left: 350px;
+}
+.one img{
+    width: 50px;
+    height: 50px;
+    padding-left: 400px;
+}
+.one p{
+    height: 20px;
+    width: 980px;
+   padding: 20px 250px; 
+   margin-left: 880px;
+}
+.two{
+    height: 20px;
+    width: 30px;
+    border: solid black;
+    
+
+}
+.two img{
+    width: 50px;
+    height: 50px;
+}
+.two p{
+    height: 20px;
+    width: 980px;
+   padding: 20px 250px; 
+   margin-left: 880px;
+}
+.three img{
+    width: 50px;
+    height: 50px;
+}
+.three p{
+    height: 20px;
+    width: 980px;
+   padding: 20px 250px; 
+   margin-left: 880px;
+}
+.four img{
+    width: 50px;
+    height: 50px;
+}
+.four p{
+    height: 20px;
+    width: 980px;
+   padding: 20px 250px; 
+   margin-left: 880px;
+}

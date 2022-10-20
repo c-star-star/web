@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝对定位的应用</title>
+</head>
+<style type="text/css">
+    .big {
+        margin: 0 auto;
+        width: 300px;
+        height: 200px;
+        background: yellow;
+
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 100px;
+        height: 50px;
+        background: pink;
+        margin-bottom: 10px;
+    }
+
+    .one {
+        position: absolute;
+        left: 150px;
+        top: 100px;
+    }
+</style>
+
+<body>
+    <div class="big">
+        <div class="one">盒子1</div>
+        <div class="two">盒子2</div>
+        <div class="three">盒子3</div>
+    </div>
+</body>
+
+</html>
